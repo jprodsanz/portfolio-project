@@ -47,8 +47,7 @@
 /* all of our css resets go in here */
 * {
     margin: 0;
-    padding: 0;
-    line-height: calc(1em +0.5rem);
+    line-height: calc(1em + 0.5rem);
 }
 
 html {
