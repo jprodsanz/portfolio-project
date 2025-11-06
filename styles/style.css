@@ -6,6 +6,7 @@
     /* colors via tailwind */
     --clr-dark: #070a13;
     --clr-slate100:#f1f5f9; /* slate100 */
+    --clr-slate300:#cbd5e1; /* slate300 */
     --clr-text: #94a3b8; /* slate400 */
     --clr-slate600: #475569; /* slate600 */
     --clr-slate800:#1e293b; /* slate800 */
@@ -100,6 +101,9 @@ p {
 
 a {
     color: var(--clr-rose);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
 }
 
 strong {

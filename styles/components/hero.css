@@ -9,18 +9,19 @@
 }
 
 .hero__img {
-  width: 6rem;
-  height: 6rem;
+  width: var(--size-7xl);
+  height: auto;
   border-radius: 50%;
 }
 
 .hero__subtitle {
-    color: var(--clr-slate800);
+    color: var(--clr-slate300);
     font-size: var(--size-base);
     line-height: 0.9;
+    text-transform: uppercase;
 }
 .hero__title {
-    color: var(--clr-slate400);
+    color: var(--clr-slate300);
     text-transform: uppercase;
     font-size: var(--size-4xl);
     letter-spacing: -0.05em;
@@ -30,7 +31,7 @@
 .hero__description {
     max-width: 60ch;
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-text);
 }
 
 .hero__btn {
