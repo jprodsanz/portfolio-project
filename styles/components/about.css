@@ -8,11 +8,6 @@
     flex-direction: column;
     gap: 1rem;
 }
-.about__title {
-    font-size: var(--size-2xl);
-    color: var(--clr-light);
-}
-
 .about__description {
     max-width: 60ch;
     font-size: var(--size-sm);
@@ -22,9 +17,17 @@
 .about__hr {
     border-color: var(--clr-slate800)
 }
+
+.about__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    text-transform: uppercase;
+}
+
 .about__subtitle {
     font-size: var(--size-sm);
     color: var(--clr-slate300);
+    text-transform: uppercase;
 }
 
 .about__list-container {
