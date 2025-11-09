@@ -58,6 +58,41 @@
         </button>
       </nav>
     </header>
+    <!-- Mobile Navigation -->
+     <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a href="#about" class="mobile-nav__link">About</a>
+          </li>
+          <li>
+            <a href="#featured" class="mobile-nav__link">Work</a>
+          </li>
+          <li>
+            <a href="#contact" class="mobile-nav__link">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button class="mobile-nav__sun">
+              <svg
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z"
+                />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a href="" class="mobile-nav__btn primary-btn">Resume</a>
+          </li>
+        </ul>
+      </nav>
+     </div>
+    <!-- End of Mobile Navigation -->
     <main>
       <section class="hero container">
         <img
@@ -83,7 +118,7 @@
         </p>
         <a class="hero__btn primary-btn" href="#">Reach Out</a>
       </section>
-      <section class="about container section">
+      <section id="about" class="about container section">
         <div class="about__content">
           <h2 class="about__title">About Me</h2>
           <p class="about__description">
@@ -127,7 +162,7 @@
           />
         </div>
       </section>
-      <section class="featured container section">
+      <section id="featured" class="featured container section">
         <h3 class="featured__subtitle">Featured Project</h3>
         <div class="featured__wrapper">
           <h2 class="featured__title">Slaying The Dragon</h2>
@@ -382,7 +417,7 @@
           </div>
         </div>
       </section>
-      <section class="contact container section">
+      <section id="contact" class="contact container section">
         <h2 class="contact__title">Contact Me</h2>
           <p class="contact__description">
             Anim sint elit consequat nostrud tempor Lorem nostrud consequat. Mollit officia et aliquip nulla eiusmod sit duis esse labore minim et ut in. Esse ipsum Lorem aliquip Lorem veniam pariatur dolore anim ea. Officia tempor nostrud aliqua aliqua voluptate proident exercitation eu.
@@ -395,7 +430,9 @@
           </a>
       </section>
     </main>
-    <!-- <footer></footer> -->
+    <footer class="footer container section">
+      <h3 class="footer__title"> Pablo Diez </h3>
+    </footer>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
