@@ -164,7 +164,7 @@
         margin-bottom: 1em;
     }
     .work__project-btn {
-        font-size: var(--size-xs);  
+        font-size: var(--size-lg);  
     }
     .work__project:not(:last-child) {
         margin-bottom: 0;
