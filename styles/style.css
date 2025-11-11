@@ -52,6 +52,17 @@ html {
     scroll-behavior: smooth;
 }
 
+
+.light-mode {
+    --clr-light: #070a13;
+    --clr-dark: #e2e8f0; /* slate200 */
+    --clr-text: #94a3b8; /* slate400 */
+    --clr-slate600: #475569; /* slate600 */
+    --clr-slate800:#1e293b; /* slate800 */
+}
+
+
+
 body {
     font-family: var(--font-primary); 
     background-color: var(--clr-dark);
